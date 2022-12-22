@@ -1,0 +1,92 @@
+*{
+    /* background-color: rgb(73, 73, 73); */
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+ .first{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.search {
+    display: flex;
+    align-items: flex-start;
+    /* background-color: black; */
+    padding-top: 2px;
+    /* align-items: center;     */
+} 
+
+
+.input{
+    background-color: black;
+    align-items: center;
+}
+
+
+.logo a img{
+    width: 100px;
+    margin-right: 40px;
+}
+.middle{
+    align-self: center;
+}
+input{
+    margin-top: 20px;
+    padding-left: 29px;
+    width:650px;
+    height:45px;
+    border-radius: 20px;
+}
+  li :last-child{
+ color: red;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(226, 226, 226);
+}
+
+.account{
+    display: flex;
+    align-items: center;  
+    width:150px;
+    justify-content: space-around;
+}
+
+.details{
+    /* justify-items: flex-end; */
+    list-style-type: none;
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.details ul{
+    display: flex;
+    list-style: none;
+    
+}
+.details ul li{
+    margin-right: 10px;
+}
+
+.searchbar{
+    width: 100%;
+    padding: 30px;
+    height: 120px;
+    background-color: brown;
+    display: flex;
+} */
+
+.material-symbols-outlined {
+    
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
